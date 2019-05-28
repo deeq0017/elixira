@@ -1,0 +1,248 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Montserrat", "Sans Serif";
+}
+body, html {
+  margin: 0;
+  padding: 0;
+
+  background-color: white;
+  color: black;
+}
+
+
+.shop-produkt{
+  font-weight:600;
+  text-align: center;
+  font-size: 24px;
+
+}
+
+
+
+/* MAIN */
+main {
+  overflow-y: auto;
+  height: 91vh;
+  background-color: white;
+  /*  FOOTER  */
+
+}
+.flex-produkt {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
+  margin-bottom: -70px;
+}
+
+.flex-produkt > div {
+
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.container img {
+  width: 100%;
+  height: 300px;
+}
+
+
+.overnav{
+  background-color: #ffd9c4;
+
+  text-align: center;
+}
+.elix{
+  width: 20px;
+  margin: 10px;
+  margin-left: 93px;
+}
+
+.flex {
+  display: flex;
+
+}
+
+.flex > div {
+
+  color: white;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.LBK {
+  display: flex;
+  justify-content: center;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+.LBK > div {
+
+  margin: 10px;
+  padding: 20px;
+
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid;
+}
+.flex-felt {
+  display: flex;
+  justify-content: center;
+  margin: -10px;
+
+}
+
+.flex-felt > div {
+  margin: 10px;
+}
+.felt{
+  margin: 10px;
+}
+#table1 {
+  border: 1px solid black;
+   border-collapse: separate;
+  border-spacing: 3px;
+}
+.flex-check {
+  display: flex;
+
+}
+
+.flex-check > div {
+
+  margin: 10px;
+
+}
+.img-with-text {
+    text-align: justify;
+    width: 100%;
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+}
+.retur{
+  background-color: #d6d0d6;
+  display: flex;
+  margin-top: 71px;
+  border-bottom: 2px solid black;
+
+
+}
+.retur > div {
+
+
+  width: 100px;
+  margin: 10px;
+  text-align: justify;
+  font-size: xx-small;
+  text-align-last: center;
+}
+
+
+
+.mobilfooter {
+  margin-top: -10px;
+background-color: #f1efee;
+}
+
+.mobilfooter > div {
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  font-size: 12px;
+}
+
+
+
+.kort {
+  display: flex;
+  flex-wrap: nowrap;
+
+}
+
+.kort > div {
+
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+
+  font-size: 14px;
+}
+
+.flex-op {
+  display: flex;
+  flex-wrap: nowrap;
+
+}
+.flex-ned {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.flex-ned > div {
+
+  width: 100px;
+  margin: 10px;
+  text-align: justify;
+  font-size: 12px;
+}
+.flex-op > div {
+
+
+  margin: 10px;
+  text-align: center;
+
+  font-size: 12px;
+}
+.flex-3 {
+  display: flex;
+  margin-left: -9px;
+}
+
+.flex-3 > div {
+
+  margin: 10px;
+
+  font-size: 12px;
+}
+
+
+}
+
+
+
+/*  MEDIA QUERY TABLET */
+@media screen and (min-width: 768px) {
+
+}
+/* MEDIA QUERY LAPTOP OR DESKTOP */
+@media screen and (min-width: 1024px) {
+  /* MAIN */
+
+
+}
+header {
+  /*  NAVBAR  */
+}
